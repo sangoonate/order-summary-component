@@ -1,0 +1,129 @@
+:root {
+    box-sizing: border-box;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    /* Font size (paragraph): 16px */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.outer {
+    min-height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center.flex-column {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ml-2 {
+    margin-left: 2.8em;
+    margin-right: 2.8em;
+}
+
+.mt-2 {
+    margin-top: 1.5em;
+}
+
+.card {
+    border-radius: 20px;
+    width: 450px;
+    background-color: white;
+    box-shadow: 0px 18px 18px hsl(225, 82%, 82%);
+    /* height: 900px; */
+}
+
+.img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.info-container {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    padding: 1.3em 0.6em;
+    border-radius: 0.5em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+}
+
+.info img {
+    float: left;
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.info-details {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.info-change {
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.info h4 {
+    margin: 0;
+}
+
+.info p {
+    margin: 0;
+    margin-top: 0.6em;
+    color: rgb(85, 79, 79);
+}
+
+.text-color {
+    color: rgb(85, 79, 79);
+}
+
+.button-1 {
+    background-color: hsl(245, 75%, 52%);
+    padding: 1em 6em;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 2em;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 3.5em;
+    box-shadow: 0px 18px 18px hsl(225, 82%, 82%);
+}
+
+.button-2 {
+    margin-bottom: 2em;
+    margin-left: 13em;
+    border: none;
+    background-color: white;
+    color: rgb(85, 79, 79);
+}
