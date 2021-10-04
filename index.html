@@ -5,58 +5,38 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Order summary card</title>
-    <style>
-        @font-face {
-            font-family: RedHatDisplay;
-            src: url("Red_Hat_Display/static/RedHatDisplay-Medium.ttf");
-        }
-        
-        @font-face {
-            font-family: RedHatDisplay;
-            src: url("Red_Hat_Display/static/RedHatDisplay-Bold.ttf");
-            font-weight: bold;
-        }
-        
-        body {
-            font-family: RedHatDisplay;
-        }
-        
-        body {
-            background-image: url("requirements/images/pattern-background-desktop.svg");
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-color: hsl(228, 100%, 94%);
-        }
-    </style>
 </head>
 
 <body>
     <div class="flex-center flex-column outer">
         <div class="flex-center">
             <div class="flex-center flex-column card">
-                <img class="img" src="requirements/images/illustration-hero.svg">
-                <h1 class="text-center mt-2">Order Summary</h1>
-                <p class="text-center ml-2 mt-2 text-color">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-                <div class="info-container">
-                    <div class="info">
-                        <img src="requirements/images/icon-music.svg">
-                        <div class="info-details">
-                            <h4>Annual Plan</h4>
-                            <p>$59.99/year</p>
+                <img class="main-img" src="requirements/images/illustration-hero.svg">
+                <div class="card-body">
+
+                    <h1>Order Summary</h1>
+                    <p class="mt-1 blue-text-color">
+                        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                    </p>
+
+                    <div class="info flex-center mt-2">
+                        <div>
+                            <img class="info-img" src="requirements/images/icon-music.svg">
+                            <div class="info-details">
+                                <p class="bold">Annual Plan</p>
+                                <p class="blue-text-color mt-05">$59.99/year</p>
+                            </div>
                         </div>
+                        <a class="info-change bold" href="#"><b>Change</b></a>
                     </div>
-                    <a class="info-change" href="#"><b>Change</b></a>
-                </div>
-                <div>
-                    <button class="button-1">Proceed to Payment</button>
-                </div>
-                <div>
-                    <button class="button-2"><b>Cancel Order</b></button>
+
+                    <button class="blue-button mt-2 semi-bold">Proceed to Payment</button>
+                    <br/>
+                    <button class="transparent-button mt-2 blue-text-color bold">Cancel order</button>
                 </div>
             </div>
         </div>
     </div>
-
     </div>
 </body>
 
